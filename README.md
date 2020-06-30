@@ -1,4 +1,4 @@
-# DROT-1-UNiTED
+# DROT-2-UNiTED
 Preliminary Version of Prosumer Energy Scheduling Code Based on Energy Value Signals
 
 The full description of the algorithm used, in addition to I/O details can be found in the following published paper:
