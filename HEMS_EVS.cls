@@ -54,29 +54,24 @@ ReDim sumsP(1 To nIterTotal)
 
 For iterTotalN = 1 To nIterTotal
 
-    'leitura de vetores
-    'Matriz Enerform
     For i = 1 To n_slot
         For j = 1 To n_forn
             EnerSup(i, j) = Worksheets("EnerSup").Cells(6 + i, 2 + j)
         Next j
     Next i
     
-    'Matriz CustSup
     For i = 1 To n_slot
         For j = 1 To n_forn
             CustSup(i, j) = Worksheets("CustSup").Cells(6 + i, 2 + j)
         Next j
     Next i
     
-    'Matriz ValueBlocks
     For i = 1 To n_slot
         For j = 1 To n_blocks
             ValueBlocks(i, j) = Worksheets("ValueBlocks").Cells(6 + i, 2 + j)
         Next j
     Next i
     
-    'Matriz EnerBlocks
     For i = 1 To n_blocks
         NSlotBlocks(i) = Worksheets("EnerBlocks").Cells(5, 2 + i)
     Next i
