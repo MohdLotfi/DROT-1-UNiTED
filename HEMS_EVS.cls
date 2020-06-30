@@ -24,19 +24,19 @@ Dim AlocateSup() As Double
 Dim BlockFlag() As Boolean 
 
 n_slot = Worksheets("EnerSup").Cells(1, 3)  
-n_forn = Worksheets("EnerSup").Cells(2, 3)   
+n_sup = Worksheets("EnerSup").Cells(2, 3)   
 n_blocks = Worksheets("EnerBlocks").Cells(1, 3)   
 
-ReDim EnerSup(1 To n_slot, 1 To n_forn)
-ReDim CustSup(1 To n_slot, 1 To n_forn)
+ReDim EnerSup(1 To n_slot, 1 To n_sup)
+ReDim CustSup(1 To n_slot, 1 To n_sup)
 ReDim ValueBlocks(1 To n_slot, 1 To n_blocks)
-ReDim OrdSup(1 To n_slot, 1 To n_forn)
-ReDim OrdSupFlag(1 To n_forn)
-ReDim OrdSup(1 To n_slot, 1 To n_forn)
+ReDim OrdSup(1 To n_slot, 1 To n_sup)
+ReDim OrdSupFlag(1 To n_sup)
+ReDim OrdSup(1 To n_slot, 1 To n_sup)
 ReDim EnerLoad(1 To n_slot)
 ReDim AlocateBlock(1 To n_slot, 1 To n_blocks)
 ReDim AlocateEnerLoad(1 To n_slot, 1 To n_blocks)
-ReDim AlocateSup(1 To n_slot, 1 To n_forn)
+ReDim AlocateSup(1 To n_slot, 1 To n_sup)
 ReDim BlockFlag(1 To n_blocks)
 
 ReDim EnerBlocks(1 To n_slot, 1 To n_blocks)
