@@ -7,7 +7,7 @@ M. Lotfi, C. Monteiro, M. S. Javadi, M. Shafie-khah and J. P. S. Catalão, "Opti
 
 The paper can be accessed at: http://webx.ubi.pt/~catalao/8849017.pdf
 
-You are free to download and use this code, but must make the adequate reference to the aforementioned paper if you do so. 
+You must adequately cite this paper as the reference if you decide to download and use this code.
 
 Feel free to contact me if you have any doubts or questions: mohd.f.lotfi@gmail.com
 
